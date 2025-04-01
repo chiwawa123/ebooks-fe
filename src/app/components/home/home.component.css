@@ -1,0 +1,19 @@
+/* Custom styling for the button */
+.btn-outline-primary {
+  border: 2px solid #e6871a; /* Blue outline color */
+  color: #e6871a; /* Blue text color */
+  padding: 0.5rem 1rem; /* Padding adjustments */
+  border-radius: 0.375rem; /* Rounded corners */
+  font-weight: 600; /* Bold text */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 0.5px; /* Letter spacing */
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for the button */
+.btn-outline-primary:hover {
+  background-color: #e6871a; /* Blue background on hover */
+  color: white; /* White text color */
+  border-color: #0056b3; /* Darker blue border on hover */
+  box-shadow: 0 2px 10px rgba(0, 123, 255, 0.3); /* Soft shadow effect */
+}
